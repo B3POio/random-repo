@@ -1,0 +1,25 @@
+{
+  "name": "nft-snapshot",
+  "version": "1.0.0",
+  "description": "A script to scrape owners of a given NFT for a snapshot.",
+  "main": "./src/index.js",
+  "bin": {
+    "nftsnap": "./src/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: do not use npm start. Use the CLI. See README.\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.7.2",
+    "moment": "^2.29.3",
+    "node-fetch": "^3.3.2",
+    "yargs": "^17.4.1"
+  }
+}

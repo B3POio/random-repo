@@ -1,0 +1,16 @@
+{
+    "combine": false, 
+    "exclude": 
+    [
+        "excluded-collection-name" 
+    ],
+    "collections": [
+        {
+            "type": "erc721",
+            "name": "based-ape-gang",
+            "address": "0x381b0D693dC6C5EA556838e8604AE000510a16Ac",
+            "startId": 1, 
+            "endId": 2222
+        }
+    ]
+}
